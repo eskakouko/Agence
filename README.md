@@ -8,11 +8,7 @@ On utilise:
 * Symfony 
 
 
-```bash
-symfony book:check-requirements
-symfony check:requirements
-```
 
 Lancer le serveur avec la commande
 symfony server:start
-```
+
