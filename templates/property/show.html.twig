@@ -1,0 +1,13 @@
+{% extends 'layouts/base.html.twig' %}
+
+{% block title %} Agence - {{ property.title }}{% endblock %}
+
+{% block body %}
+    
+    <main id="main">
+        {# Intro Single #}
+        {{ include('property/partials/_intro_single_show.html.twig') }}
+
+    </main>
+
+{% endblock %}
